@@ -1,0 +1,85 @@
+/* Global Styles */
+
+body {
+    background-image: linear-gradient(to bottom, #0c0f2c, #1d1da9);
+    background-size: 100% 300px;
+    animation: gradient-animation 10s infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 0%;
+    }
+    25% {
+      background-position: 50% 75%;
+    }
+    50% {
+        background-position: 75% 100%;
+      }
+    100% {
+      background-position: 0% 0%;
+    }
+  }
+  
+  
+  
+  /* Navbar Styles */
+  
+  .navbar {
+    background-color: #212529; /* Deep Gray */
+    border-bottom: 6px solid #c2af21; /* Orange */
+  }
+  
+  .navbar-brand {
+    color: #754242; /* White */
+  }
+  
+  .nav-link {
+    color: #fff; /* White */
+  }
+  
+  .nav-link:hover {
+    color: #ffc107; /* Orange */
+  }
+  
+  /* News Section Styles */
+  
+  #newsType {
+    background-color: #bed7f0; /* Light Gray */
+    padding: 11.5px;
+    border: 2px solid #5b0909;
+    box-shadow: 0 0 10px rgba(175, 145, 145, 0.907);
+  }
+  
+  #newsdetails {
+    background-color: #221558; /* White */
+    padding: 20px;
+    border: 2px solid #ddd;
+    box-shadow: 0 0 10px rgba(230, 77, 77, 0.558);
+  }
+  
+ 
+  
+  /* Accent Colors */
+  
+  .btn {
+    background-color: #9769ebd3; /* Orange */
+    color: #fff; /* White */
+  }
+  
+  .btn:hover {
+    background-color: #ffa07a; /* Light Orange */
+  }
+  
+  /* Responsive Design */
+  
+  @media (max-width: 768px) {
+    /* Adjust colors for smaller screens */
+  }
+  
+  @media (max-width: 480px) {
+    /* Adjust colors for smaller screens */
+  }
+  
+  
+  
